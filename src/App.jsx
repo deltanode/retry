@@ -11,7 +11,7 @@ function App() {
           </div>
         </div>
 
-        <div className={`${style.flexStart} ${style.paddingX}`}>
+        <div className={`${style.flexStart}`}>
           <div className={`${style.boxWidth}`}>
             <Hero />
           </div>

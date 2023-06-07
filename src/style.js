@@ -1,18 +1,18 @@
 const style = {
-  boxWidth: "w-full 2xl:max-w-[1280px]",
+  boxWidth: "w-full xl:max-w-[1280px]",
 
-  heading2: "w-full font-poppins font-semibold, text-[40px] xs:text-[48px] text-white leading-[66.8px] xs:leading-[76.8px] ",
+  heading2: "w-full font-poppins font-semibold, text-[40px] sm:text-[48px] text-white leading-[66.8px] sm:leading-[76.8px] ",
   paragraph: "font-poppins font-normal text-[18px] leading[30.8px] text-dimWhite",
 
   flexCenter: "flex justify-center items-center",
   flexStart: "flex justify-center items-start",
 
-  paddingX: "sm:px-16 px-6",
-  paddingY: "sm:py-16 py-6",
-  padding: "sm:px-16 px-6 sm:py-12 py-4",
+  paddingX: "md:px-16 px-6",
+  paddingY: "md:py-16 py-6",
+  padding: "md:px-16 px-6 md:py-12 py-4",
 
-  marginX: "sm:mx-16 mx-6",
-  marginY: "sm:my-16 my-6"
+  marginX: "md:mx-16 mx-6",
+  marginY: "md:my-16 my-6"
 }
 
 export const layout = {
