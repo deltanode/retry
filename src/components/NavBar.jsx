@@ -29,7 +29,7 @@ const NavBar = () => {
           <ul className="flex flex-col items-center ">
             {navLinks.map(navLink => {
               return (
-                <li className="py-1">
+                <li key={navLink.id} className="py-1">
                   <a href={`#${navLink.id}`}>{navLink.title}</a>
                 </li>
               )

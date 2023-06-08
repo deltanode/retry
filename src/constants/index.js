@@ -40,7 +40,7 @@ export const features = [
   }
 ]
 
-export const feedback = [
+export const feedbacks = [
   {
     id: "feedback-1",
     content: "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
